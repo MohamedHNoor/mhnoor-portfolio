@@ -1,5 +1,24 @@
+import {
+  About,
+  Contact,
+  Footer,
+  Hero,
+  Navbar,
+  Projects,
+  Skills,
+} from './components';
 function App() {
-  return <h1>React template</h1>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

@@ -1,12 +1,14 @@
-# Project Name
+# MHNOOR Portfolio
 
-> Description the project.
+> A web application to showcase my skills and Recent Project. Built with Vite, React, and HTML5/CSS3.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- React
+- HTML5/CSS3
+- JSX
+- Vite
 
 ## Live Demo
 
@@ -26,7 +28,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd <folder>
-  git clone
+  git clone https://github.com/MohamedHNoor/mhnoor-portfolio.git
 ```
 
 ### Install
@@ -73,7 +75,7 @@ npm run build
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MohamedHNoor/mhnoor-portfolio/issues).
 
 ## Show your support
 
