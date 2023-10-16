@@ -8,7 +8,7 @@ const Hero = () => {
           <div className='underline'></div>
           <h1>i'm Mohamed</h1>
           <h4>web & mobile full stack developer</h4>
-          <a href='contact.html' className='btn hero-btn'>
+          <a href='#contact' className='btn hero-btn'>
             hire me
           </a>
           {/* social icons */}
