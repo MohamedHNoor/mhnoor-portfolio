@@ -35,9 +35,9 @@ const Footer = () => {
       </ul>
 
       <p>
-        &copy; <span id='date'>{date}</span> Mohamed Hassan Noor. all rights
-        reserved
+        &copy; <span id='date'>{date}</span> Mohamed Hassan Noor.
       </p>
+      <p>all rights reserved</p>
     </footer>
   );
 };
