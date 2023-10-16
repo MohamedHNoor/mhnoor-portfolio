@@ -29,7 +29,10 @@ const Navbar = () => {
         <div className='nav-center'>
           {/* nav header */}
           <div className='nav-header'>
-            <img src='' className='nav-logo' alt='nav logo' />
+            {/* <img src='' className='nav-logo' alt='nav logo' /> */}
+            <a href='#' className='logo'>
+              <span>MH</span>NOOR
+            </a>
             <button
               className='nav-btn'
               id='nav-btn'
@@ -41,7 +44,7 @@ const Navbar = () => {
           {/* links */}
           <ul className='nav-links'>
             <li>
-              <a href='index.html'>home</a>
+              <a href='#home'>home</a>
             </li>
             <li>
               <a href='#about'>about</a>

@@ -2,7 +2,7 @@ import heroImg from '../assets/images/hero-img.svg';
 
 const Hero = () => {
   return (
-    <header className='hero'>
+    <header className='hero' id='home'>
       <div className='section-center hero-center'>
         <article className='hero-info'>
           <div className='underline'></div>

@@ -33,7 +33,7 @@ html {
   --clr-primary-10: #eef2ff;
 
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-1: #102a42;
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
@@ -242,6 +242,20 @@ Navbar
   grid-template-columns: auto 1fr;
   -webkit-box-align: center;
   align-items: center;
+}
+
+.logo {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: var(--spacing);
+  color: var(--clr-primary-5);
+}
+
+.logo span {
+  color: var(--clr-grey-3);
 }
 
 .nav-btn {
@@ -493,72 +507,6 @@ About
 
 /*
 ===============
-Services
-===============
-*/
-
-/* bg-grey in globals */
-.service {
-  background: var(--clr-white);
-  padding: 3rem 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: var(--radius);
-  text-align: center;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.service-icon {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-.service .underline {
-  width: 3rem;
-  height: 0.12rem;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.service p {
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.service:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-white);
-}
-
-.service:hover p {
-  color: var(--clr-white);
-}
-
-.service:hover .underline {
-  background: var(--clr-white);
-}
-
-@media screen and (min-width: 676px) {
-  .services-center {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    -webkit-column-gap: 2rem;
-    -moz-column-gap: 2rem;
-    column-gap: 2rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .services-center {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-/* talk about small screen
-without grid different setup */
-
-/*
-===============
 Projects
 ===============
 */
@@ -766,38 +714,35 @@ Connect
   background: var(--clr-primary-10);
   padding: 3rem 5rem 12rem 5rem;
   text-align: center;
-  -webkit-clip-path:
-    polygon(
-      0% 0%,
-      100% 0%,
-      100% 75%,
-      75% 75%,
-      75% 100%,
-      50% 75%,
-      0% 75%
-    );
-  clip-path:
-    polygon(
-      0% 0%,
-      100% 0%,
-      100% 75%,
-      75% 75%,
-      75% 100%,
-      50% 75%,
-      0% 75%
-    );
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
 }
 
 .connect {
-  -webkit-clip-path:
-    polygon(
-      50% 0%,
-      100% 10%,
-      100% 90%,
-      50% 100%,
-      0 90%,
-      0 10%
-    );
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 10%,
+    100% 90%,
+    50% 100%,
+    0 90%,
+    0 10%
+  );
   clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
 }
 
@@ -826,6 +771,11 @@ Footer
 }
 
 .footer p {
-  font-size: 1.25rem;
   text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .footer p {
+    font-size: 1.25rem;
+  }
 }
