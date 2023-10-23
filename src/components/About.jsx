@@ -13,7 +13,7 @@ const About = () => {
             <div className='underline'></div>
           </div>
           <p>
-            Hi, my name is Mohamed Hassan Noor. I am Junior Full Stack Developer
+            Hi, my name is Mohamed Hassan Noor. I am a Full Stack Developer
             with a solid foundation in JavaScript, React, and Ruby on Rails, I
             am passionate about building intuitive and efficient web
             applications. I am always on the lookout for opportunities to expand
