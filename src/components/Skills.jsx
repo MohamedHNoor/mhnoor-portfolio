@@ -2,64 +2,81 @@ import SectionTitle from './SectionTitle';
 
 const Skills = () => {
   return (
-    <section className='section skills'>
+    <section className='section bg-grey'>
       <SectionTitle text='Skills' />
 
-      <div className='section-center skills-center'>
-        <article>
-          <h3>front end</h3>
-
-          <div className='skill'>
-            <p>HTML/CSS</p>
-            <div className='skill-container'>
-              <div className='skill-value'></div>
-              <p className='skill-text'>90%</p>
+      <div className='section-center service-center'>
+        {/* frontend */}
+        <div class='section-center services-center'>
+          <article class='service'>
+            <i class='fas fa-code service-icon'></i>
+            <h4>Front-End</h4>
+            <div class='underline'></div>
+            <div className='skill'>
+              <ul className='skill-lists'>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Next.js</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+              </ul>
             </div>
-          </div>
-
-          <div className='skill'>
-            <p>Javascript</p>
-            <div className='skill-container'>
-              <div className='skill-value value-70'></div>
-              <p className='skill-text skill-text-70'>80%</p>
+          </article>
+          <article class='service'>
+            <i class='fas fa-server service-icon'></i>
+            <h4>Back-End</h4>
+            <div class='underline'></div>
+            <div className='skill'>
+              <ul className='skill-lists'>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>Node JS</li>
+                <li>Express</li>
+                <li>SQL</li>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </ul>
             </div>
-          </div>
-
-          <div className='skill'>
-            <p>React</p>
-            <div className='skill-container'>
-              <div className='skill-value value-80'></div>
-              <p className='skill-text skill-text-80'>80%</p>
+          </article>
+          <article class='service'>
+            <i class='fas fa-screwdriver-wrench service-icon'></i>
+            <h4>Tools & Methods</h4>
+            <div class='underline'></div>
+            <div className='skill'>
+              <ul className='skill-lists'>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Jest</li>
+                <li>RSpec</li>
+                <li>TDD</li>
+                <li>Mobile-first approach</li>
+                <li>Chrome Dev Tools</li>
+                <li>Postman</li>
+              </ul>
             </div>
-          </div>
-        </article>
-        <article>
-          <h3>back end</h3>
-
-          <div className='skill'>
-            <p>SQL</p>
-            <div className='skill-container'>
-              <div className='skill-value value-50'></div>
-              <p className='skill-text'>60%</p>
+          </article>
+          <article class='service'>
+            <i class='fas fa-user-tie service-icon'></i>
+            <h4>Professional</h4>
+            <div class='underline'></div>
+            <div className='skill'>
+              <ul className='skill-lists'>
+                <li>Remote Pair Programming</li>
+                <li>Teamwork</li>
+                <li>Mentoring</li>
+                <li>Communication Skills</li>
+                <li>Code Review</li>
+                <li>Attention to Details</li>
+                <li>Problem solving Skills</li>
+              </ul>
             </div>
-          </div>
-
-          <div className='skill'>
-            <p>Ruby</p>
-            <div className='skill-container'>
-              <div className='skill-value value-70'></div>
-              <p className='skill-text skill-text-70'>70%</p>
-            </div>
-          </div>
-
-          <div className='skill'>
-            <p>Ruby on Rails</p>
-            <div className='skill-container'>
-              <div className='skill-value value-80'></div>
-              <p className='skill-text skill-text-80'>80%</p>
-            </div>
-          </div>
-        </article>
+          </article>
+        </div>
+        {/* backend */}
       </div>
     </section>
   );
