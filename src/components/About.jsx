@@ -13,17 +13,15 @@ const About = () => {
             <div className='underline'></div>
           </div>
           <p>
-            Hi, my name is Mohamed Hassan Noor. I am a Full Stack Developer
-            with a solid foundation in JavaScript, React, and Ruby on Rails, I
-            am passionate about building intuitive and efficient web
-            applications. I am always on the lookout for opportunities to expand
-            my skills and take on innovative projects that push the boundaries
-            of these technologies.
+            I am a full stack web developer with a passion for creating
+            interactive and responsive web applications. I have experience
+            working with JavaScript, React, Redux, Next.js, Node.js, Express,
+            Ruby on Rails, PostgreSQL, MongoDB, HTML5, CSS3, and Git. I am a
+            quick learner and I am always looking to expand my knowledge and
+            skill set. I am a team player and I am excited to work with others
+            to create amazing applications.
           </p>
-          
-          <p>
-           If you need a skilled developer proficient in JavaScript, React, and Ruby on Rails who can positively impact your company's projects, look no further. Reach out to me through the following contact details.
-          </p>
+
           <a href='#contact' className='btn'>
             contact me
           </a>
